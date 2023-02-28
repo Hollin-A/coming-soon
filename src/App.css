@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;900&display=swap");
+
+.background-image {
+  background-image: url(./assets/shape-01.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@keyframes float-01 {
+  0% {
+    transform: translate(50%, -50%);
+  }
+  50% {
+    transform: translate(45%, -55%);
+  }
+  100% {
+    transform: translate(50%, -50%);
+  }
+}
+
+.float-animation-01 {
+  animation: float-01 3s ease-in-out infinite;
+}
+
+@keyframes float-02 {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  50% {
+    transform: translate(-45%, -55%);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
+
+.float-animation-02 {
+  animation: float-02 3s ease-in-out infinite;
+}
+
+@keyframes float-03 {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  50% {
+    transform: translate(-45%, -45%);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
+
+.float-animation-03 {
+  animation: float-03 3s ease-in-out infinite;
+}
+
+@keyframes float-04 {
+  0% {
+    transform: translate(-50%, 10%);
+  }
+  50% {
+    transform: translate(-45%, 5%);
+  }
+  100% {
+    transform: translate(-50%, 10%);
+  }
+}
+
+.float-animation-04 {
+  animation: float-04 3s ease-in-out infinite;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
