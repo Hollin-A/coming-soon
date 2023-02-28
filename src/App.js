@@ -2,17 +2,18 @@ import "./App.css";
 import { Navbar } from "./component/Navbar.js";
 import { Body } from "./component/Body.js";
 import { Footer } from "./component/Footer.js";
+import { Background } from "./component/Background";
 
 function App() {
   return (
-    <div className="bg-white background-image h-screen flex flex-col">
+    <div className="h-screen flex flex-col relative">
+      <Background/>
       <Navbar />
-      <div className="flex-1">
-        <Body />
-      </div>
+      <Body />
       <Footer />
     </div>
   );
 }
+
 
 export default App;

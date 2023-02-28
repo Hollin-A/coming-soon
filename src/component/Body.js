@@ -4,7 +4,7 @@ export const Body = () => {
   return (
     <div className="h-full flex-1 flex justify-center items-center">
       <div className="container text-center">
-        <span className="text-secondary uppercase font-sans sm:text-6xl text-5xl font-black">
+        <span className="animate-pulse text-secondary uppercase font-sans sm:text-6xl text-5xl font-black">
           we are <br />
           coming soon
         </span>
