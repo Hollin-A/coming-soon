@@ -8,12 +8,12 @@ export const Navbar = () => {
         <img src={zigmaCodeLogo01} class="h-full" alt="zigma code logo" />
       </div>
       <div class="flex items-center font-sans uppercase text-sm sm:text-base font-light">
-        <ul class="flex sm:space-x-5 space-x-4">
-          <li>
+        <ul class="flex sm:space-x-6 space-x-4">
+          {/* <li>
             <a href="#" class="">
               About
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="#" class="">
               Services
@@ -21,7 +21,7 @@ export const Navbar = () => {
           </li>
           <li>
             <a href="#" class="">
-              Contact
+              Contact us
             </a>
           </li>
         </ul>
